@@ -2,4 +2,8 @@
     <string name="app_name">SliceCutter</string>
     <string name="open_navigation_drawer">Open</string>
     <string name="close_navigation_drawer">Close</string>
+    <string name="history_button">История</string>
+    <string name="settings_button">Настройки</string>
+    <string name="help_button">Помощь</string>
+    <string name="about_us_button">О нас</string>
 </resources>

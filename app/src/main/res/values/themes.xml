@@ -3,7 +3,18 @@
     <style name="Base.Theme.SliceCutter" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
     </style>
 
     <style name="Theme.SliceCutter" parent="Base.Theme.SliceCutter" />
+
+    <!-- Стиль для фона меню -->
+    <style name="MenuBackgroundStyle">
+        <item name="android:background">@color/SecondaryContainer</item>
+    </style>
+
+    <!-- Стиль для текста меню -->
+    <style name="MenuTextStyle">
+        <item name="android:textColor">@color/onSecondaryContainer</item>
+    </style>
 </resources>

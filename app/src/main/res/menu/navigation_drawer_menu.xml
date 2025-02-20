@@ -5,22 +5,22 @@
         <item
             android:id="@+id/nav_item_1"
             android:icon="@drawable/list"
-            android:title="History"
-            app:showAsAction="always"/>
+            android:title="@string/history_button"
+            />
         <item
             android:id="@+id/nav_item_2"
-            android:icon="@drawable/resource__"
-            android:title="Help"
-            app:showAsAction="always"/>
+            android:icon="@drawable/question"
+            android:title="@string/help_button"
+            />
         <item
             android:id="@+id/nav_item_3"
             android:icon="@drawable/settings"
-            android:title="Settings"
-            app:showAsAction="always"/>
+            android:title="@string/settings_button"
+            />
         <item
             android:id="@+id/nav_item_4"
             android:icon="@drawable/star"
-            android:title="About us"
-            app:showAsAction="always"/>
+            android:title="@string/about_us_button"
+            />
     </group>
 </menu>

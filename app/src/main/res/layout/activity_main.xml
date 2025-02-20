@@ -6,36 +6,50 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
                 <com.google.android.material.appbar.MaterialToolbar
                     android:id="@+id/toolbar"
-                    style="@style/Widget.MaterialComponents.Toolbar.Primary"
+                    style="@style/MenuBackgroundStyle"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
-                    android:background="?attr/colorPrimary"
-                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+                    android:theme="@style/MenuBackgroundStyle"
+                    app:popupTheme="@style/MenuBackgroundStyle"/>
 
                 <FrameLayout
                     android:id="@+id/content_frame"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Новых сечений нет"
+                            android:gravity="center"
+                            >
+
+                        </TextView>
+                </FrameLayout>
 
         </LinearLayout>
 
 
         <com.google.android.material.navigation.NavigationView
+
             android:id="@+id/nav_view"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
             app:headerLayout="@layout/nav_header"
-            app:menu="@menu/navigation_drawer_menu" />
+            app:menu="@menu/navigation_drawer_menu"
+            app:itemIconTint="@color/onSecondaryContainer"
+            app:itemTextColor="@color/onSecondaryContainer"
+                style="@style/MenuBackgroundStyle"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
