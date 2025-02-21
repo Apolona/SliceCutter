@@ -6,4 +6,6 @@
     <string name="settings_button">Настройки</string>
     <string name="help_button">Помощь</string>
     <string name="about_us_button">О нас</string>
+    <string name="no_slieces">Сохраненных сечений нет</string>
+
 </resources>

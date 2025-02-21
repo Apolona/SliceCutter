@@ -30,11 +30,23 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="Новых сечений нет"
+                            android:text="@string/no_slieces"
                             android:gravity="center"
                             >
 
                         </TextView>
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fab"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:layout_margin="16dp"
+                            app:elevation="6dp"
+                            app:backgroundTint="@color/primary"
+                            app:fabSize="normal"
+                            app:srcCompat="@drawable/add"
+                            app:tint="@color/onPrimary"
+                            />
                 </FrameLayout>
 
         </LinearLayout>
@@ -51,5 +63,6 @@
             app:itemIconTint="@color/onSecondaryContainer"
             app:itemTextColor="@color/onSecondaryContainer"
                 style="@style/MenuBackgroundStyle"/>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

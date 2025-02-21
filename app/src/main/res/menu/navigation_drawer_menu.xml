@@ -3,22 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_item_1"
+            android:id="@+id/nav_history"
             android:icon="@drawable/list"
             android:title="@string/history_button"
             />
         <item
-            android:id="@+id/nav_item_2"
+            android:id="@+id/nav_help"
             android:icon="@drawable/question"
             android:title="@string/help_button"
             />
         <item
-            android:id="@+id/nav_item_3"
+            android:id="@+id/nav_settings"
             android:icon="@drawable/settings"
             android:title="@string/settings_button"
             />
         <item
-            android:id="@+id/nav_item_4"
+            android:id="@+id/nav_about_us"
             android:icon="@drawable/star"
             android:title="@string/about_us_button"
             />
