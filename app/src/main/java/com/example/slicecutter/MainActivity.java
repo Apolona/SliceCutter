@@ -58,7 +58,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View view) {
                 Toast.makeText(MainActivity.this, "FAB", Toast.LENGTH_SHORT).show();
-
+                Intent myIntent = new Intent(MainActivity.this, ChooseFigureActivity.class);
+                startActivity(myIntent);
             }
         });
     }

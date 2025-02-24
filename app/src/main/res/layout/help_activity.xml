@@ -22,9 +22,8 @@
             android:id="@+id/back_button_3"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:text="Back">
+            android:text="Back"/>
 
-        </Button>
     </LinearLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -7,5 +7,6 @@
     <string name="help_button">Помощь</string>
     <string name="about_us_button">О нас</string>
     <string name="no_slieces">Сохраненных сечений нет</string>
-
+    <string name="choose_figure">Выберите фигуру</string>
+    <string name="choose_type">Выберите тип</string>
 </resources>
